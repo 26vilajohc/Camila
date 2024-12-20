@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal webpage showcasing skills, certifications, and projects.">
+    <meta name="keywords" content="portfolio, web development, skills, certifications">
+    <meta name="author" content="Camila Vila Araujo">
+    <title>My Stylish Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 10px; /* Reduje el padding para hacerlo más pequeño */
+            background-color: #ffe3f4;
+        }
+        header .header-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .logo img {
+            width: 80px; /* Reduje el tamaño del logo */
+            height: auto;
+        }
+        h1 {
+            color: #ff3f8f; /* Rosa vibrante */
+            font-size: 1.5em; /* Reduje el tamaño del texto */
+            margin: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #ff7fbc;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        nav ul li a:hover {
+            background-color: #e65ca0;
+            transform: scale(1.1);
+        }
+        .carousel {
+            position: relative;
+            max-width: 600px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 2px solid #ff7fbc;
+        }
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel img {
+            width: 100%;
+            flex-shrink: 0;
+        }
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+        .carousel-nav button {
+            background-color: rgba(255, 127, 188, 0.8);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            pointer-events: auto;
+            cursor: pointer;
+            font-size: 20px;
+            color: white;
+        }
+        .resume-photo img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+        .resume-photo h3 {
+            text-align: center;
+            font-size: 1.8em;
+            color: #ff3f8f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.1&permmsgid=msg-f:1818791082577505850&th=193da4da6dae2e3a&view=fimg&fur=ip&permmsgid=msg-f:1818791082577505850&sz=s0-l75-ft&attbid=ANGjdJ9PVuC-K2qaj8ycmwHW3XPYWKkFQ7Cogje_vVgzYOvCQFhXHXXc7klpYuVcSIxZEBnJuYG0e1_UrTeGtiqDl-0EtjMT8yxQrFVcj6Eb9mk0_p3Eg2ZsBLS9yvE&disp=emb&realattid=95EF768B-2B10-462A-B379-F763AD0A2A10&zw" alt="Logo">
+            </div>
+            <h1 class="title">✧.* Hi, it's Camila! ✧.*</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <section id="home">
+                <div id="home-info">
+                    <p>I'm Camila Vila Araujo and I'm a junior at Career Tech High School. I love to write, watch movies, and spend time with my family and friends. My favorite color is pink, and I'm really excited to show you my work!</p>
+                </div>
+            </section>
+
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.2&permmsgid=msg-f:1818746446704068647&th=193d7c41d44cc827&view=fimg&realattid=E09C510A-D432-4BDD-A90B-5AB9EE68501C&disp=thd&attbid=ANGjdJ-Tlqj0wgzbj1a_PjWwI-3Jz7ByasyGgcLf0c_3Db30mCB9mt2wkGhhvEF8KwaFtNuQXLZ1v7XRzwZ_HS2S0LnV0CDvgjMkPk2Ss9oYDsw7qkTLNgKY2w_0QaI&ats=2524608000000&sz=w1366-h607" alt="Me 1">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.1&permmsgid=msg-f:1818746446704068647&th=193d7c41d44cc827&view=fimg&realattid=B86515A8-3728-4228-B0D6-76C5F0F48E46&disp=thd&attbid=ANGjdJ8LhVy4KAs4ft6Pwetcmr4xF7hbLRr3vfKB27MTRcm1d4veYHTrQwa91rT-Ej614Dgd1LWnaAKKzzAXv4ET5EfoVppsBDNBtdSxIw8_eae-R2Tr1ZwZGTX16qo&ats=2524608000000&sz=w1366-h607" alt="Me 2">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.3&permmsgid=msg-f:1818746446704068647&th=193d7c41d44cc827&view=fimg&realattid=C3A62E8B-88E6-4118-8F1A-5DBB77094A2D&disp=thd&attbid=ANGjdJ-IfDE5WkbXfZWsn84uKU1jHRqlEc0uy5z8PQU0fw3haB1myPYxdk1qig8c8dSGma8Fw3wBX5I1sObj9xyc7q_p7SxhTyhKM0OlS55XFqEwLXjUxfTPLInI9DU&ats=2524608000000&sz=w1366-h607" alt="Me 3">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.1&permmsgid=msg-f:1818752428370465525&th=193d81b28b6692f5&view=fimg&realattid=16C37AAF-E59C-4ED5-95C6-8A123EB53B2C&disp=thd&attbid=ANGjdJ93-7OK9jZjuhd8kmsWVtUZsFLiukfq1u_z4R9djBswQKYUHHBisJlHaf9qxwj4adHrm22hYxGUVtutjtiHmlyIiPKD0XpM2VbmuSte_7xbjytvtIYOIipBnnY&ats=2524608000000&sz=w1366-h607" alt="Me 4">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.3&permmsgid=msg-f:1818752428370465525&th=193d81b28b6692f5&view=fimg&realattid=A91C1670-2EBD-4ADF-B2C2-1888C3B72E6B&disp=thd&attbid=ANGjdJ_oqPvlck_r1ezJdItUxNEYREZP6HCT1CZpsrFWDCTHyqg4yR48mXslUnGBQIxiRK0RWyc0JgD-F_saBAkem2Xgnc2aPme_a4ju4zq2K7EWsSkkV9FtaNz5xrY&ats=2524608000000&sz=w1366-h607" alt="Me 5">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.4&permmsgid=msg-f:1818752428370465525&th=193d81b28b6692f5&view=fimg&realattid=8B7C5E37-50E7-4DF5-A827-79224E6630DD&disp=thd&attbid=ANGjdJ_yN3-JAA3BY_HlcPS_Auf1DL1uUj-vPEOgsa625duPKaiXe2tydTnILAF-qe8cO9X8DSHYnN28E_SHolvEeWcus7tgnEFZYVms8qM47Ab6zItMGtEis-bKiUo&ats=2524608000000&sz=w1366-h607" alt="Me 6">
+                </div>
+                <div class="carousel-nav">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+            </div>
+            <div class="resume-photo">
+                <h3>My Resume</h3>
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=efc12ae60e&attid=0.1&permmsgid=msg-f:1818927998823008043&th=193e2160b9db872b&view=fimg&fur=ip&permmsgid=msg-f:1818927998823008043&sz=s0-l75-ft&attbid=ANGjdJ9P1Q75Kz2DeUZxe0od5OchNzKyrlD2ge3MOEwI-SejlPtkHxkRjd8Jx0pRtGnLV1ZdE9-Pi0yUvHfy4rYkSO6SSUBWRrixj2w2jAIuMwjHvnWDP48Yo2KhJP0&disp=emb&realattid=2754C386-9C76-4D27-B1C4-045A6B1E7DBB&zw" alt="Resume Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const prevButton = document.query
